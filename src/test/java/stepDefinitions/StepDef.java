@@ -84,6 +84,7 @@ public class StepDef extends BaseClass {
     public void userShouldBeRedirectedToTheLoginPage() {
         loginpage = new LoginPage(driver);
         assertTrue(loginpage.isLoginFormPresent());
+        System.out.println("hi");
 
         //go to loginpage check the code
         //if you see the page after clicking register button  usename is displayed
